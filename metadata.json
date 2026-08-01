@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Sifat Tanzila - General & Laparoscopic Surgeon Portfolio",
+  "description": "Official portfolio and patient appointment portal for Assistant Professor Dr. Sifat Tanzila, General, Laparoscopic, Breast & Colorectal Surgeon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
