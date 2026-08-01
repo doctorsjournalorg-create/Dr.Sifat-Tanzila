@@ -20,7 +20,7 @@ export const DOCTOR_INFO = {
   patientRating: "4.9 / 5.0",
   summary: "A distinguished surgeon with international fellowships and advanced expertise in keyhole minimal access surgeries, laser proctology, breast tumor management, and complex colorectal conditions.",
   summaryBn: "আন্তর্জাতিক ফেলোশিপ এবং কি-হোল মিনিমাল এক্সেস সার্জারি, লেজার প্রোক্টোলজি, স্তন টিউমার ম্যানেজমেন্ট এবং জটিল কোলোরেক্টাল চিকিৎসায় সুপরিচিত ও অভিজ্ঞ সার্জন।",
-  portraitImage: "/src/assets/images/dr_sifat_tanzila.jpg",
+  portraitImage: "/dr_sifat_tanzila.jpg",
   clinicBannerImage: "/src/assets/images/medical_clinic_hero_1785412874002.jpg"
 };
 
