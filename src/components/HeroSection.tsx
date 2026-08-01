@@ -109,7 +109,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ language }) => {
 
           </motion.div>
 
-          {/* Right Column: Interactive 3D Scrolling Doctor Portrait Stage */}
+          {/* Right Column: Doctor Portrait Stage (Without 3D Badge) */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
