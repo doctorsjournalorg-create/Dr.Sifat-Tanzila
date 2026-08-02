@@ -29,7 +29,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F3D6E] tracking-tight font-sans">
             {isBn
               ? 'নিবেদিতপ্রাণ সার্জন ও সহযোগী অধ্যাপক'
-              : 'Dedicated Surgeon & Assistant Professor'}
+              : 'Dedicated Surgeon & Associate Professor'}
           </h2>
           <p className="text-slate-600 text-base leading-relaxed">
             {isBn
