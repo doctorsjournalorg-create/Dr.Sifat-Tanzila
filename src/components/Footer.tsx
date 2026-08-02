@@ -23,7 +23,7 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
                 <Stethoscope className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="text-base font-bold text-white">Assistant Professor Dr. Sifat Tanzila</h3>
+                <h3 className="text-base font-bold text-white">Associate Professor Dr. Sifat Tanzila</h3>
                 <p className="text-xs text-cyan-400 font-medium">
                   {isBn ? DOCTOR_INFO.specialtyBn : DOCTOR_INFO.specialty}
                 </p>
@@ -101,7 +101,7 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-between text-slate-500 text-[11px] gap-2">
-            <p>© {new Date().getFullYear()} Assistant Professor Dr. Sifat Tanzila. All Rights Reserved.</p>
+            <p>© {new Date().getFullYear()} Associate Professor Dr. Sifat Tanzila. All Rights Reserved.</p>
             <p className="flex items-center gap-1">
               <span>Crafted for patient care with</span> <Heart className="w-3 h-3 text-rose-500 inline fill-rose-500" />
             </p>
