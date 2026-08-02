@@ -28,7 +28,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F3D6E] tracking-tight font-sans">
             {isBn
-              ? 'নিবেদিতপ্রাণ সার্জন ও সহকারী অধ্যাপক'
+              ? 'নিবেদিতপ্রাণ সার্জন ও সহযোগী অধ্যাপক'
               : 'Dedicated Surgeon & Assistant Professor'}
           </h2>
           <p className="text-slate-600 text-base leading-relaxed">
@@ -60,7 +60,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
                   {isBn ? 'বর্তমান পদবী' : 'Current Academic Role'}
                 </span>
                 <h3 className="text-xl font-bold text-[#0F3D6E] font-sans">
-                  {isBn ? 'সহকারী অধ্যাপক (সার্জারি বিভাগ)' : 'Assistant Professor of Surgery'}
+                  {isBn ? 'সহযোগী অধ্যাপক (সার্জারি বিভাগ)' : 'Associate Professor of Surgery'}
                 </h3>
               </div>
             </div>
