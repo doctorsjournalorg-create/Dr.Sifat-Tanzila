@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Globe, Stethoscope, ShieldCheck, ChevronRight } from 'lucide-react';
+import { Menu, X, Globe, Stethoscope, ShieldCheck, ChevronRight, Image as ImageIcon, Facebook, Youtube } from 'lucide-react';
 import { Language } from '../types';
 
 interface NavbarProps {
@@ -19,7 +19,6 @@ export const Navbar: React.FC<NavbarProps> = ({
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      // Section active detection using bounding rect
       const sections = ['hero', 'about', 'specializations', 'publications', 'chambers', 'procedures'];
       const navHeight = 120;
 
@@ -109,7 +108,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
           </a>
 
-          {/* Desktop Navigation Links */}
+          {/* Desktop Navigation Links & Pictures Button */}
           <nav className="hidden lg:flex items-center gap-1 xl:gap-2 bg-slate-900/80 backdrop-blur-xl px-4 py-1.5 rounded-full border border-cyan-500/20 shadow-lg shadow-cyan-950/20">
             {navLinks.map((link) => {
               const isActive = activeSection === link.id;
@@ -128,10 +127,41 @@ export const Navbar: React.FC<NavbarProps> = ({
                 </a>
               );
             })}
+
+            {/* Pictures Page Link */}
+            <a
+              href="/pictures"
+              className="px-3.5 py-1.5 rounded-full text-xs font-bold text-cyan-300 bg-cyan-500/10 hover:bg-cyan-500/25 border border-cyan-500/30 transition-all duration-300 flex items-center gap-1.5 cursor-pointer shadow-sm"
+            >
+              <ImageIcon className="w-3.5 h-3.5 text-cyan-400" />
+              <span>{isBn ? 'ছবি' : 'Pictures'}</span>
+            </a>
           </nav>
 
-          {/* Right Action Controls */}
+          {/* Right Action Controls (Social Icons & Language Switcher) */}
           <div className="hidden sm:flex items-center gap-3">
+            {/* Social Links */}
+            <div className="flex items-center gap-2 border-r border-slate-800 pr-3">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-slate-900/80 text-slate-400 hover:text-cyan-300 hover:bg-cyan-950/60 border border-slate-800 hover:border-cyan-500/30 transition-all"
+                title="Facebook"
+              >
+                <Facebook className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-slate-900/80 text-slate-400 hover:text-cyan-300 hover:bg-cyan-950/60 border border-slate-800 hover:border-cyan-500/30 transition-all"
+                title="YouTube"
+              >
+                <Youtube className="w-4 h-4" />
+              </a>
+            </div>
+
             {/* Language Switcher Pill */}
             <button
               onClick={onLanguageToggle}
@@ -185,10 +215,42 @@ export const Navbar: React.FC<NavbarProps> = ({
                 </a>
               );
             })}
+
+            {/* Mobile Pictures Link */}
+            <a
+              href="/pictures"
+              className="flex items-center justify-between px-4 py-2.5 rounded-xl text-xs font-bold text-cyan-300 bg-cyan-500/10 border border-cyan-500/30"
+            >
+              <div className="flex items-center gap-2">
+                <ImageIcon className="w-4 h-4 text-cyan-400" />
+                <span>{isBn ? 'ছবির গ্যালারি (Pictures)' : 'Pictures Gallery'}</span>
+              </div>
+              <ChevronRight className="w-3.5 h-3.5 opacity-60" />
+            </a>
+
+            {/* Mobile Social Links */}
+            <div className="flex items-center justify-around pt-4 border-t border-slate-800/80 mt-2">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 text-slate-300 text-xs font-semibold border border-slate-800"
+              >
+                <Facebook className="w-4 h-4 text-blue-400" />
+                <span>Facebook</span>
+              </a>
+              <a
+                href="https://www.youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 text-slate-300 text-xs font-semibold border border-slate-800"
+              >
+                <Youtube className="w-4 h-4 text-red-400" />
+              </a>
+            </div>
           </div>
         </div>
       )}
     </header>
   );
 };
-
