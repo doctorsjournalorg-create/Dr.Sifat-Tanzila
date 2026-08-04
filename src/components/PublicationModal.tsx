@@ -119,7 +119,7 @@ export const PublicationModal: React.FC<PublicationModalProps> = ({
                 {publication.authors.split(', ').map((author, idx) => (
                   <React.Fragment key={idx}>
                     {idx > 0 && ', '}
-                    {author.includes('Shifat Tanzila') ? (
+                    {author.includes('Shifat Tanjila') ? (
                       <strong className="text-cyan-300 underline underline-offset-2 font-bold">
                         {author}
                       </strong>
