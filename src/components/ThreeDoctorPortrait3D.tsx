@@ -51,21 +51,7 @@ export const ThreeDoctorPortrait3D: React.FC<ThreeDoctorPortrait3DProps> = ({
       onMouseLeave={handleMouseLeave}
       className="relative w-full max-w-lg mx-auto py-4 perspective-1000 select-none"
       id="3d-doctor-portrait-stage"
-    >
-      {/* 3D Interactive Control Pill */}
-      <div className="absolute -top-4 right-0 z-20 flex items-center gap-2 bg-white/90 backdrop-blur-md px-3 py-1.5 rounded-full shadow-md border border-cyan-100 text-xs font-medium text-slate-700">
-        <Sparkles className="w-3.5 h-3.5 text-cyan-500 animate-pulse" />
-        <span>{isBn ? '৩ডি ইন্টারঅ্যাক্টিভ ভিউ' : 'Interactive 3D Stage'}</span>
-        <button
-          onClick={() => setIs3DActive(!is3DActive)}
-          className={`ml-1 p-1 rounded-full transition-colors ${
-            is3DActive ? 'bg-cyan-500 text-white' : 'bg-slate-200 text-slate-600'
-          }`}
-          title="Toggle 3D Mouse Tilt"
-        >
-          <Rotate3d className="w-3.5 h-3.5" />
-        </button>
-      </div>
+    
 
       {/* Outer Glowing Light Halo */}
       <motion.div
