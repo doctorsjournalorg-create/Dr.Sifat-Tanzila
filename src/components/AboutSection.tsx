@@ -78,7 +78,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
               <p>
                 {isBn
                   ? 'ডাঃ সিফাত তানজিলা চট্টগ্রাম মেডিকেল কলেজ (CMC) থেকে কৃতিত্বের সাথে এমবিবিএস সম্পন্ন করেন। পরবর্তীতে সার্জারিতে এফসিপিএস এবং যুক্তরাজ্যের রয়্যাল কলেজ অফ সার্জনস থেকে বিশ্বখ্যাত এমআরসিএস (MRCS England) অর্জন করেন।'
-                  : 'Dr. Shifat Tanzila completed her MBBS from Chittagong Medical College (CMC) with academic distinction. She subsequently earned her FCPS in Surgery and cleared the rigorous Royal College exams to attain the MRCS (England/UK).'}
+                  : 'Dr. Shifat Tanjila completed her MBBS from Chittagong Medical College (CMC) with academic distinction. She subsequently earned her FCPS in Surgery and cleared the rigorous Royal College exams to attain the MRCS (England/UK).'}
               </p>
               <p>
                 {isBn
