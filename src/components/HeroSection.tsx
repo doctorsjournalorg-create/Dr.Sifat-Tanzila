@@ -36,8 +36,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ language }) => {
               <ShieldCheck className="w-4 h-4 text-cyan-400" />
               <span>
                 {isBn
-                  ? 'সহকারী অধ্যাপক, সার্জারি বিভাগ | সিকদার মেডিকেল কলেজ'
-                  : 'Assistant Professor, Surgery Dept | Z.H. Sikder Medical College'}
+                  ? 'সহযোগী অধ্যাপক, সার্জারি বিভাগ | সিকদার মেডিকেল কলেজ'
+                  : 'Associate Professor, Surgery Dept | Z.H. Sikder Medical College'}
               </span>
             </div>
 
