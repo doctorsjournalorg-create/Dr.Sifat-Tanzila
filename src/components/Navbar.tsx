@@ -96,7 +96,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
                 <span className="font-extrabold text-base sm:text-lg tracking-tight text-slate-100 group-hover:text-cyan-300 transition-colors duration-200">
-                  Dr. Shifat Tanzila
+                  Dr. Shifat Tanjila
                 </span>
                 <span className="hidden md:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 shadow-inner">
                   <ShieldCheck className="w-3 h-3 mr-1 text-cyan-400" /> FCPS, MRCS
