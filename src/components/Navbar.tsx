@@ -143,7 +143,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Social Links */}
             <div className="flex items-center gap-2 border-r border-slate-800 pr-3">
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/drshifattanjila"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-slate-900/80 text-slate-400 hover:text-cyan-300 hover:bg-cyan-950/60 border border-slate-800 hover:border-cyan-500/30 transition-all"
@@ -152,7 +152,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <Facebook className="w-4 h-4" />
               </a>
               <a
-                href="https://www.youtube.com"
+                href="https://www.youtube.com/@dr.shifattanjila"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-slate-900/80 text-slate-400 hover:text-cyan-300 hover:bg-cyan-950/60 border border-slate-800 hover:border-cyan-500/30 transition-all"
