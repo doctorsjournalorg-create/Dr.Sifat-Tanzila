@@ -112,8 +112,8 @@ export const PublicationsSection: React.FC<PublicationsSectionProps> = ({ langua
 
           <p className="text-sm sm:text-base text-slate-300 font-normal leading-relaxed">
             {isBn
-              ? 'সহকারী অধ্যাপক ডাঃ সিফাত তানজিলা আন্তর্জাতিক মানসম্পন্ন আন্তর্জাতিক সার্জিক্যাল জার্নালে পিয়ার-রিভিউড গবেষণা নিবন্ধ প্রকাশ করেছেন। লেজার প্রোক্টোলজি, ল্যাপারোস্কোপি ও স্তন সার্জারির আধুনিক ডায়াগনোসিস ও চিকিৎসার অভিজ্ঞতা এখানে উপস্থাপিত।'
-              : 'Dr. Sifat Tanzila actively contributes to evidence-based surgical research. Explore her published studies indexed in PubMed, Scopus, and international medical journals covering minimally invasive surgery, laser proctology, and breast oncology.'}
+              ? 'সহযোগী অধ্যাপক ডাঃ সিফাত তানজিলা আন্তর্জাতিক মানসম্পন্ন আন্তর্জাতিক সার্জিক্যাল জার্নালে পিয়ার-রিভিউড গবেষণা নিবন্ধ প্রকাশ করেছেন। লেজার প্রোক্টোলজি, ল্যাপারোস্কোপি ও স্তন সার্জারির আধুনিক ডায়াগনোসিস ও চিকিৎসার অভিজ্ঞতা এখানে উপস্থাপিত।'
+              : 'Dr. Shifat Tanzila actively contributes to evidence-based surgical research. Explore her published studies indexed in PubMed, Scopus, and international medical journals covering minimally invasive surgery, laser proctology, and breast oncology.'}
           </p>
         </motion.div>
 
@@ -266,7 +266,7 @@ export const PublicationsSection: React.FC<PublicationsSectionProps> = ({ langua
                       {pub.authors.split(', ').map((author, i) => (
                         <React.Fragment key={i}>
                           {i > 0 && ', '}
-                          {author.includes('Sifat Tanzila') ? (
+                          {author.includes('Shifat Tanzila') ? (
                             <strong className="text-cyan-300 underline font-semibold">
                               {author}
                             </strong>
