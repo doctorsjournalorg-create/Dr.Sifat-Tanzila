@@ -23,7 +23,7 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
                 <Stethoscope className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="text-base font-bold text-white">Associate Professor Dr. Sifat Tanzila</h3>
+                <h3 className="text-base font-bold text-white">Associate Professor Dr. Shifat Tanzila</h3>
                 <p className="text-xs text-cyan-400 font-medium">
                   {isBn ? DOCTOR_INFO.specialtyBn : DOCTOR_INFO.specialty}
                 </p>
