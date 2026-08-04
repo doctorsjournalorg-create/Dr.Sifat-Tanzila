@@ -102,7 +102,7 @@ export const Footer: React.FC<FooterProps> = ({ language }) => {
 
           <div className="flex flex-col sm:flex-row items-center justify-between text-slate-500 text-[11px] gap-2">
             <p>© {new Date().getFullYear()} 
-            <a href="https://www.doctorsjournal.org/">International Network of Doctors Journal. All Rights Reserved.</a>
+            <a href="https://www.doctorsjournal.org/"> International Network of Doctors Journal. All Rights Reserved.</a>
             </p>
             <p className="flex items-center gap-1">
               <span>Crafted for patient care with</span> <Heart className="w-3 h-3 text-rose-500 inline fill-rose-500" />
