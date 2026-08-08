@@ -103,7 +103,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 </span>
               </div>
               <p className="text-[11px] text-slate-400 font-medium tracking-wide line-clamp-1">
-                {isBn ? 'সহযোগী অধ্যাপক ও জেনারেল সার্জারি স্পেশালিস্ট' : 'Associate Professor & General Surgeon'}
+                {isBn ? 'সহকারী অধ্যাপক ও জেনারেল সার্জারি স্পেশালিস্ট' : 'Assistant Professor & General Surgeon'}
               </p>
             </div>
           </a>
