@@ -104,7 +104,7 @@ export const ThreeDoctorPortrait3D: React.FC<ThreeDoctorPortrait3DProps> = ({
           <div className="absolute bottom-0 inset-x-0 p-5 bg-gradient-to-t from-slate-950 via-slate-950/90 to-transparent text-white">
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-cyan-500/20 text-cyan-300 text-xs font-medium border border-cyan-500/30 mb-1.5">
               <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" />
-              <span>{isBn ? 'সহযোগী অধ্যাপক' : 'Associate Professor'}</span>
+              <span>{isBn ? 'সহকারী অধ্যাপক' : 'Assistant Professor'}</span>
             </div>
             <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-white font-sans">
               {isBn ? DOCTOR_INFO.nameBn : DOCTOR_INFO.name}
